@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CareerInfo</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+		<nav class="navbar navbar-expand-sm fixed-top page-header shadow">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand mr-auto nav-item" href="#"><img src="https://i.ibb.co/WBfpSh6/Group-1f.png" height="30" width="auto"></a>
+				<div class="collapse navbar-collapse" id="Navbar">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Disclaimer</a></li>
+						<li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+						<li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="search-box">
+		<form class="form-inline justify-content-center">
+			<input class="form-control shadow-sm" type="text" id="search-text" placeholder="Enter Text" aria-label="Search">
+			<select class="form-control shadow-sm" id="search-category">
+				<option>Everywhere</option>
+				<option>Forms</option>
+				<option>Admit Card</option>
+				<option>Results</option>
+				<option>Syllabus</option>
+			</select>
+			<button class="btn search-btn shadow-sm" type="submit" id="search-btn">Search</button>
+		</form>
+	</div>
+	<div class="content-wrapper">
+
+		<div class="site-content">
+
+			<div class="tab">
+				<button class="tablinks" onclick="openCity(event, 'Latest')">Latest</button>
+				<button class="tablinks" onclick="openCity(event, 'Admit Cards')">Admit Cards</button>
+				<button class="tablinks" onclick="openCity(event, 'Jobs')">Jobs</button>
+				<button class="tablinks" onclick="openCity(event, 'Results')">Results</button>
+				<button class="tablinks" onclick="openCity(event, 'Document Verification')">Document Verification</button>
+				<button class="tablinks" onclick="openCity(event, 'Admission Forms')">Admission Forms</button>
+				<button class="tablinks" onclick="openCity(event, 'Syllabus')">Syllabus</button>
+				<button class="tablinks" onclick="openCity(event, 'Diploma')">Diploma</button>
+				<button class="tablinks" onclick="openCity(event, 'More')">More»</button>
+			</div>
+
+			<div id="Latest" class="tabcontent">
+				<div class="tab-content-body">
+						<ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;19 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/rsmssb-junior-instructor-recruitment/304700 ">RSMSSB Junior Engineer Online Form 2020- Re Open</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/ssc-exam-exam-result-2020/10075 ">SSC Selection Post VII Additional Result 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/navodaya-vidyalaya-entrance-exam-cutoff-marks/58963 ">NVS Class 6th / 9th Result 2020 – हुआ जारी</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/hpssc-recruitment/329903 ">HPSSC Various (896 Post) Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/cpo-recruitment-2012/3261 ">SSC CPO SI Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/rrc-admit-card/279860 ">RRC Railway Group D CBT 1st Exam की भर्ती प्रक्रिया शुरू</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/india-post-office-application-form/60089 ">India Post GDS Online Form 2020 (4166 Posts)</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/rajasthan-home-guard-recruitment/328811 ">Rajasthan Home Guard Online Form 2020 (2500 Posts)</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uppcl-recruitment/289386 ">UPPCL Technician Electrical (608 Posts) Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/upsc-various-post-online-form/277174 ">UPSC NDA II Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/indian-air-force-recruitent-2012/9294 ">Indian Airforce AFCAT 02/2020 Batch Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bihar-teacher-recruitment/329832 ">Bihar Teacher Online Form 2020 (94000 Posts)</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/ntpc-recruitment-application-form/56403 ">NTPC Engineer Executive Trainee (100 Post) Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uttarakhand-psc-recruitment/82007 ">UKPSC ARO &amp; Other Posts 2018 Mains Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uppcl-recruitment-2019/327093 ">UPPCL Account Officer Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bihar-psc-online-form/329608 ">BPSC Mineral Development Officer Online Form- Re Open</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;18 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/rsmssb-recruitment/300308 ">RSMSSB Lab Technician, Radiographer Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bpsc-64-mains-online-form-2019/324281 ">BPSC 65th Mains Online Form 2020 Extended</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bpsc-application-form/60297 ">BPSC Motor Vehicle Inspector MVI Online Form 2020 Extended</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bpsc-assistant-director-online-form-last-date-26-april/275993 ">BPSC Assistant Engineer Online Form 2020 Extended</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bpsc-1171-assistant-professor-form-last-date-31-may/277331 ">BPSC Assistant Engineer (Civil) Online Form-Extended</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/mp-high-court-recruitment/130190 ">MP High Court Group D Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/chhattisgarh-psc-recruitment/179764 ">CGPSC Forest Ranger Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/cgpsc-multiple-posts-online-form-last-date-16-march/274519 ">CGPSC Insurance Medical Officer Online Form 2020 (Reopen)</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uksssc-1546-various-posts-online-form-last-date-12-march/273755 ">UKSSSC Junior Engineer (Civil) Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uksssc-recruitment/248778 ">UKSSSC Various Post Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uksssc-deputy-officer-recruitment/284774 ">UKSSSC 10+2 Various Post Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/up-pcs-j-recruitment/313376 ">UPPSC ACF / RFO Mains Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/ibps-recruitment-2012/10682 ">IBPS Various Post Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/upsc-iesiss-online-form-last-date-3-march/274421 ">UPSC IES, ISS Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/himachal-pradesh-board-result/304555 ">HP Board Class 12th Results 2020- हुआ जारी</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/up-board-exam-result-2014/10237 ">UP Board 10th,12th 2020 Result Date घोषित</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;17 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/central-silk-board-recruitment/181529 ">Central Silk Board Assistant &amp; Scientist Form 2020</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;16 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/ssc-result-2014/2198 ">SSC JHT Paper II Result With Cutoff 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/%e0%a4%b2%e0%a4%a6%e0%a5%8d%e0%a4%a6%e0%a4%be%e0%a4%96-%e0%a4%ae%e0%a5%87%e0%a4%82-%e0%a4%b9%e0%a4%bf%e0%a4%82%e0%a4%b8%e0%a4%95-%e0%a4%9f%e0%a4%95%e0%a4%b0%e0%a4%be%e0%a4%b5-%e0%a4%95%e0%a5%87/329874 ">लद्दाख में हिंसक टकराव के बाद भारतीय सेना का जवाब- चीन के 3 सैनिक भी मारे गए</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/assam-police-constable-post-form-2017/290077 ">Assam Police Asst. Inspector &amp; Excise Constable Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/50-%e0%a4%b8%e0%a4%be%e0%a4%b2-%e0%a4%ae%e0%a5%87%e0%a4%82-%e0%a4%aa%e0%a4%b9%e0%a4%b2%e0%a5%80-%e0%a4%ac%e0%a4%be%e0%a4%b0-%e0%a4%b2%e0%a4%a6%e0%a5%8d%e0%a4%a6%e0%a4%be%e0%a4%96-%e0%a4%ae%e0%a5%87/329872 ">बड़ी खबर- चीन ने चलाई गोली भारत के एक अफसर और दो जवान शहीद</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uppsc-examination-calendar/289867 ">UPPSC Exam Revised Calendar 2020-2021</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;15 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/bpsc-cutoff-marks/64544 ">BPSC 64 Mains Exam Result 2020- Coming On 15-July</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/cti-admission-form/4841 ">CTI Admission Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/manipur-board-result/329867 ">Manipur Board 10th result 2020- हुआ जारी 10th/12th</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/mppgcl-recruitment/185626 ">MPPGCL Apprentice Offline Form 2020</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;14 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/actor-sushant-singh-rajput-commit-sucide/329858 ">बड़ी खबर : M S Dhoni (अभिनेता सुशांत सिंह राजपूत) ने की आत्महत्या</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;12 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/hbse-result-haryana-board-10th-class-12th-class-hbse-result/57471 ">Haryana Board Class 10 Result 2020 – जल्द होगा जारी</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;11 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/auto-rickshaw-e-rickshaw-e-pass-form/329841 ">Auto Rickshaw &amp; E Rickshaw चलने हेतु E- Pass फॉर्म</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;10 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/india-post-office-result/280658 ">UP Postal Circle GDS Result 2020</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;09 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/gujarat-board-result-www-gseb-org-10th-12th-result/58639 ">Gujarat Board 10th Result 2020-जारी</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/csbc-bihar-police-result-2017/283151 ">Bihar Police Constable (11880 Post) Result 2020 – हुआ जारी</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/assam-police-constable-recruitment/304763 ">Assam Police Constable / Guardsman Gr-III Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uprvunl-recruitment-2012/3284 ">UPRVUNL ARO &amp; Various Posts Online Form 2020- Extend</a>
+								</li>
+							</ul>
+						</ul>
+				</div>
+			</div>
+
+			<div id="Admit Cards" class="tabcontent">
+				<table class="table table-hover text-center">
+					<thead>
+						<tr>
+							<th scope="col">Date Posted</th>
+							<th class="text-left" scope="col">Post Title</th>
+							<th scope="col">Last Date</th>
+							<th scope="col">PDF</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Today</td>
+							<td class="text-left">
+								<a href="https://www.sarkariexam.com/rsmssb-junior-instructor-recruitment/304700">RSMSSB Junior Engineer Online Form 2020 - Re Open</a>
+							</td>
+							<td>28-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Today</td>
+							<td class="text-left">
+								<a href="https://www.sarkariexam.com/ssc-exam-exam-result-2020/10075">SSC Selection Post VII Additional Result 2020</a>
+							</td>
+							<td>22-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Today</td>
+							<td class="text-left">
+								<a href="https://www.sarkariexam.com/rsmssb-junior-instructor-recruitment/304700">RSMSSB Junior Engineer Online Form 2020 - Re Open</a>
+							</td>
+							<td>28-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Today</td>
+							<td class="text-left">
+								<a href="https://www.sarkariexam.com/ssc-exam-exam-result-2020/10075">SSC Selection Post VII Additional Result 2020</a>
+							</td>
+							<td>22-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Yesterday</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/hpssc-recruitment/329903">HPSSC Various (896 Post) Online Form 2020</a></td>
+							<td>12-July-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Yesterday</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/hpssc-recruitment/329903">HPSSC Various (896 Post) Online Form 2020</a></td>
+							<td>12-July-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Yesterday</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/hpssc-recruitment/329903">HPSSC Various (896 Post) Online Form 2020</a></td>
+							<td>12-July-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>15-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>15-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>15-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>14-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/rsmssb-junior-instructor-recruitment/304700">RSMSSB Junior Engineer Online Form 2020 - Re Open</a></td>
+							<td>28-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>14-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/ssc-exam-exam-result-2020/10075">SSC Selection Post VII Additional Result 2020</a></td>
+							<td>22-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>14-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/rsmssb-junior-instructor-recruitment/304700">RSMSSB Junior Engineer Online Form 2020 - Re Open</a></td>
+							<td>28-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>14-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/ssc-exam-exam-result-2020/10075">SSC Selection Post VII Additional Result 2020</a></td>
+							<td>22-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>10-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/hpssc-recruitment/329903">HPSSC Various (896 Post) Online Form 2020</a></td>
+							<td>12-July-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>10-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/hpssc-recruitment/329903">HPSSC Various (896 Post) Online Form 2020</a></td>
+							<td>12-July-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>5-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>5-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>5-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="Jobs" class="tabcontent">
+				<div class="tab-content-body">
+						<ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;19 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/rsmssb-junior-instructor-recruitment/304700 ">RSMSSB Junior Engineer Online Form 2020- Re Open</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/ssc-exam-exam-result-2020/10075 ">SSC Selection Post VII Additional Result 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/navodaya-vidyalaya-entrance-exam-cutoff-marks/58963 ">NVS Class 6th / 9th Result 2020 – हुआ जारी</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/hpssc-recruitment/329903 ">HPSSC Various (896 Post) Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/cpo-recruitment-2012/3261 ">SSC CPO SI Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/rrc-admit-card/279860 ">RRC Railway Group D CBT 1st Exam की भर्ती प्रक्रिया शुरू</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/india-post-office-application-form/60089 ">India Post GDS Online Form 2020 (4166 Posts)</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/rajasthan-home-guard-recruitment/328811 ">Rajasthan Home Guard Online Form 2020 (2500 Posts)</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uppcl-recruitment/289386 ">UPPCL Technician Electrical (608 Posts) Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/upsc-various-post-online-form/277174 ">UPSC NDA II Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/indian-air-force-recruitent-2012/9294 ">Indian Airforce AFCAT 02/2020 Batch Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bihar-teacher-recruitment/329832 ">Bihar Teacher Online Form 2020 (94000 Posts)</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/ntpc-recruitment-application-form/56403 ">NTPC Engineer Executive Trainee (100 Post) Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uttarakhand-psc-recruitment/82007 ">UKPSC ARO &amp; Other Posts 2018 Mains Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uppcl-recruitment-2019/327093 ">UPPCL Account Officer Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bihar-psc-online-form/329608 ">BPSC Mineral Development Officer Online Form- Re Open</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;18 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/rsmssb-recruitment/300308 ">RSMSSB Lab Technician, Radiographer Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bpsc-64-mains-online-form-2019/324281 ">BPSC 65th Mains Online Form 2020 Extended</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bpsc-application-form/60297 ">BPSC Motor Vehicle Inspector MVI Online Form 2020 Extended</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bpsc-assistant-director-online-form-last-date-26-april/275993 ">BPSC Assistant Engineer Online Form 2020 Extended</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/bpsc-1171-assistant-professor-form-last-date-31-may/277331 ">BPSC Assistant Engineer (Civil) Online Form-Extended</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/mp-high-court-recruitment/130190 ">MP High Court Group D Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/chhattisgarh-psc-recruitment/179764 ">CGPSC Forest Ranger Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/cgpsc-multiple-posts-online-form-last-date-16-march/274519 ">CGPSC Insurance Medical Officer Online Form 2020 (Reopen)</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uksssc-1546-various-posts-online-form-last-date-12-march/273755 ">UKSSSC Junior Engineer (Civil) Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uksssc-recruitment/248778 ">UKSSSC Various Post Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uksssc-deputy-officer-recruitment/284774 ">UKSSSC 10+2 Various Post Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/up-pcs-j-recruitment/313376 ">UPPSC ACF / RFO Mains Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/ibps-recruitment-2012/10682 ">IBPS Various Post Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/upsc-iesiss-online-form-last-date-3-march/274421 ">UPSC IES, ISS Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/himachal-pradesh-board-result/304555 ">HP Board Class 12th Results 2020- हुआ जारी</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/up-board-exam-result-2014/10237 ">UP Board 10th,12th 2020 Result Date घोषित</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;17 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/central-silk-board-recruitment/181529 ">Central Silk Board Assistant &amp; Scientist Form 2020</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;16 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/ssc-result-2014/2198 ">SSC JHT Paper II Result With Cutoff 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/%e0%a4%b2%e0%a4%a6%e0%a5%8d%e0%a4%a6%e0%a4%be%e0%a4%96-%e0%a4%ae%e0%a5%87%e0%a4%82-%e0%a4%b9%e0%a4%bf%e0%a4%82%e0%a4%b8%e0%a4%95-%e0%a4%9f%e0%a4%95%e0%a4%b0%e0%a4%be%e0%a4%b5-%e0%a4%95%e0%a5%87/329874 ">लद्दाख में हिंसक टकराव के बाद भारतीय सेना का जवाब- चीन के 3 सैनिक भी मारे गए</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/assam-police-constable-post-form-2017/290077 ">Assam Police Asst. Inspector &amp; Excise Constable Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/50-%e0%a4%b8%e0%a4%be%e0%a4%b2-%e0%a4%ae%e0%a5%87%e0%a4%82-%e0%a4%aa%e0%a4%b9%e0%a4%b2%e0%a5%80-%e0%a4%ac%e0%a4%be%e0%a4%b0-%e0%a4%b2%e0%a4%a6%e0%a5%8d%e0%a4%a6%e0%a4%be%e0%a4%96-%e0%a4%ae%e0%a5%87/329872 ">बड़ी खबर- चीन ने चलाई गोली भारत के एक अफसर और दो जवान शहीद</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uppsc-examination-calendar/289867 ">UPPSC Exam Revised Calendar 2020-2021</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;15 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/bpsc-cutoff-marks/64544 ">BPSC 64 Mains Exam Result 2020- Coming On 15-July</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/cti-admission-form/4841 ">CTI Admission Online Form 2020</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/manipur-board-result/329867 ">Manipur Board 10th result 2020- हुआ जारी 10th/12th</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/mppgcl-recruitment/185626 ">MPPGCL Apprentice Offline Form 2020</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;14 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/actor-sushant-singh-rajput-commit-sucide/329858 ">बड़ी खबर : M S Dhoni (अभिनेता सुशांत सिंह राजपूत) ने की आत्महत्या</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;12 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/hbse-result-haryana-board-10th-class-12th-class-hbse-result/57471 ">Haryana Board Class 10 Result 2020 – जल्द होगा जारी</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;11 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/auto-rickshaw-e-rickshaw-e-pass-form/329841 ">Auto Rickshaw &amp; E Rickshaw चलने हेतु E- Pass फॉर्म</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;10 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/india-post-office-result/280658 ">UP Postal Circle GDS Result 2020</a>
+								</li>
+							</ul>
+							<li class="latest-head">Latest Form Issued on&nbsp;09 Jun 2020</li>
+							<ul class="latest-points">
+								<li>
+									<a href=" https://www.sarkariexam.com/gujarat-board-result-www-gseb-org-10th-12th-result/58639 ">Gujarat Board 10th Result 2020-जारी</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/csbc-bihar-police-result-2017/283151 ">Bihar Police Constable (11880 Post) Result 2020 – हुआ जारी</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/assam-police-constable-recruitment/304763 ">Assam Police Constable / Guardsman Gr-III Online Form</a>
+								</li>
+								<li>
+									<a href=" https://www.sarkariexam.com/uprvunl-recruitment-2012/3284 ">UPRVUNL ARO &amp; Various Posts Online Form 2020- Extend</a>
+								</li>
+							</ul>
+						</ul>
+				</div>
+			</div>
+
+			<div id="Results" class="tabcontent">
+				<table class="table table-hover text-center">
+					<thead>
+						<tr>
+							<th scope="col">Date Posted</th>
+							<th class="text-left" scope="col">Post Title</th>
+							<th scope="col">Last Date</th>
+							<th scope="col">PDF</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Today</td>
+							<td class="text-left">
+								<a href="https://www.sarkariexam.com/rsmssb-junior-instructor-recruitment/304700">RSMSSB Junior Engineer Online Form 2020 - Re Open</a>
+							</td>
+							<td>28-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Today</td>
+							<td class="text-left">
+								<a href="https://www.sarkariexam.com/ssc-exam-exam-result-2020/10075">SSC Selection Post VII Additional Result 2020</a>
+							</td>
+							<td>22-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Today</td>
+							<td class="text-left">
+								<a href="https://www.sarkariexam.com/rsmssb-junior-instructor-recruitment/304700">RSMSSB Junior Engineer Online Form 2020 - Re Open</a>
+							</td>
+							<td>28-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Today</td>
+							<td class="text-left">
+								<a href="https://www.sarkariexam.com/ssc-exam-exam-result-2020/10075">SSC Selection Post VII Additional Result 2020</a>
+							</td>
+							<td>22-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Yesterday</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/hpssc-recruitment/329903">HPSSC Various (896 Post) Online Form 2020</a></td>
+							<td>12-July-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Yesterday</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/hpssc-recruitment/329903">HPSSC Various (896 Post) Online Form 2020</a></td>
+							<td>12-July-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>Yesterday</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/hpssc-recruitment/329903">HPSSC Various (896 Post) Online Form 2020</a></td>
+							<td>12-July-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>15-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>15-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>15-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>14-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/rsmssb-junior-instructor-recruitment/304700">RSMSSB Junior Engineer Online Form 2020 - Re Open</a></td>
+							<td>28-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>14-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/ssc-exam-exam-result-2020/10075">SSC Selection Post VII Additional Result 2020</a></td>
+							<td>22-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>14-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/rsmssb-junior-instructor-recruitment/304700">RSMSSB Junior Engineer Online Form 2020 - Re Open</a></td>
+							<td>28-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>14-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/ssc-exam-exam-result-2020/10075">SSC Selection Post VII Additional Result 2020</a></td>
+							<td>22-June-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>10-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/hpssc-recruitment/329903">HPSSC Various (896 Post) Online Form 2020</a></td>
+							<td>12-July-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>10-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/hpssc-recruitment/329903">HPSSC Various (896 Post) Online Form 2020</a></td>
+							<td>12-July-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>5-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>5-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+						<tr>
+							<td>5-June-2020</td>
+							<td class="text-left"><a href="https://www.sarkariexam.com/india-post-office-application-form/60089">India Post GDS Online Form 2020 (4166 Posts)</a></td>
+							<td>11-August-2020</td>
+							<td><img src="https://i.ibb.co/MS3mpdL/pdf.png" height="22px" width="auto" alt="pdf"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+	</div>
+
+	<footer class="footer page-footer">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-auto">
+					<p class="disclaimer">The careerinfo.com Is Not Associated with the Any Kind of Government Organization. Here We Are Only Providing Educations Information. We Have Collected Education News Notification from Various Online/offline Sources. Here We Are Not Responsible for Any Inadvertent Error That May Have Crept in the Information Being Published in This Website and for Any Loss to Anybody or Anything Caused by Any Shortcoming, Defect or Inaccuracy of the Information on This Website.</p>
+					<p class="disclaimer">Copyright © 2016-2020. All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

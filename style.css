@@ -1,0 +1,171 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-color: #f2e8df;
+	color: #1f0f02;
+	font-family: "Open Sans", sans-serif;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar a {
+	color: #fff;
+}
+
+.navbar {
+	background-color: #d9751e;
+	height: 70px;
+	position: relative;
+}
+
+.navbar-nav li:hover {
+	background-color: #e67d15;
+}
+
+.nav-item {
+	margin: 12px;
+}
+
+.nav-link {
+	font-size: 18px;
+	font-weight: 400;
+	font-family: "Gill Sans";
+}
+
+.footer {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	background-color: #30241f;
+	color: #f2e8df;
+}
+
+.page-header,
+.page-footer {
+	flex-shrink: 0;
+}
+
+.content-wrapper {
+	background-color: #ebeef0;
+	margin: 0px auto;
+	max-width: 60%;
+	margin-bottom: 200px;
+}
+
+.disclaimer {
+	text-align: center;
+	font-weight: 100px;
+	font-size: 13px;
+}
+
+.disclaimer p {
+	margin-bottom: 0px;
+}
+
+.tab {
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	float: left;
+	width: 100%;
+}
+
+.tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 25px;
+	transition: 0.3s;
+}
+
+.tab button:hover {
+	background-color: #ddd;
+}
+
+.tab button.active {
+	background-color: #ccc;
+}
+
+.tabcontent {
+	display: none;
+	padding: 6px 0px;
+	border: 1px solid #ccc;
+	border-top: none;
+	width: 100%;
+}
+
+.site-content {
+	overflow: hidden;
+}
+
+.search-box {
+	text-align: center;
+	margin: 18px 0px;
+	margin-top: 40px;
+}
+
+#search-text {
+	width: 32%;
+}
+#search-category {
+	width: 8%;
+	font-size: 15.5px;
+}
+
+.search-btn {
+	border-color: #d9d0c7;
+	margin-left: 3px;
+	width: 95px;
+}
+
+#search-btn:focus {
+	border-color: #bbb;
+	box-shadow: 10px 10px 10px #bbb;
+}
+
+.form-control:focus {
+	border-color: #ffffff;
+	-moz-box-shadow: 0 0 5px #fff;
+	-webkit-box-shadow: 0 0 5px #fff;
+	box-shadow: 0px 0px 5px #fff;
+}
+
+.tab-content-body {
+	margin: 90px 20px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.table td,
+.table th {
+	border-left: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
+	border-top: 1px solid rgba(222, 226, 230, 0.5);
+}
+
+.tabcontent ul li a,
+.table td a {
+	color: #1f0f02;
+}
+
+.latest-head {
+	font-size: 22px;
+	margin-bottom: 8px;
+}
+
+.latest-points {
+	margin-bottom: 30px;
+}
